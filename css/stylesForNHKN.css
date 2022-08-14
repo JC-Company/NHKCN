@@ -1,0 +1,124 @@
+/* CSS class */
+
+.top-container {
+  background-color: #F3E9DD;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 150px;
+  height: 380px;
+  width: auto;
+
+}
+
+.church-name {
+
+  font-size: 120px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.div-box01 {
+  border: solid 3px #2C3333;
+  margin: 50px auto;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+}
+
+.middle-box {
+  margin: 50px auto 50px;
+  width: 1000px;
+  position: relative;
+
+}
+
+.about-us {
+
+  font-size: 50px;
+  text-align: left;
+
+}
+
+/* How to crop an image in CSS
+   https://www.educative.io/answers/how-to-crop-an-image-in-css */
+
+.prayer-image-cropped1 {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+}
+
+
+.bottom-box {
+  background-color: #F3E9DD;
+
+  padding-top: 100px;
+  height: 250px;
+  width: auto;
+
+
+}
+
+.end-box {
+  background-color: #100720;
+  padding-bottom: 30px;
+
+  height: 50px;
+  width: 100%;
+  margin-bottom: 100px;
+
+
+}
+
+/* HTML tag css */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2 {
+  color: #0F044C;  /* colorhunt.co : https://colorhunt.co/palette/0f044c141e61787a91eeeeee */
+}
+
+h1 {
+  font-family: 'Single Day', cursive;
+
+}
+
+h2 {
+  font-size: 47px;
+  font-family: 'Single Day', cursive;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  color: #787A91;
+  width: 300px;
+}
+
+a {
+  color: #002B5B;
+  text-decoration: none;
+}
+body {
+  margin: 0 80px;
+  text-align: center;
+      -webkit-font-smoothing: antialiased;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  float: right;
+  margin: 10px 0 0 50px;
+}
+
+p {
+  color: #141E61;
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+}
