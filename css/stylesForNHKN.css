@@ -4,7 +4,7 @@
   background-color: #F3E9DD;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 150px;
+  padding-top: 100px;
   height: 480px;
   width: auto;
 
@@ -58,6 +58,9 @@
   width: 100%;
   margin-bottom: 100px;
 
+}
+
+.top-box {
 
 }
 
