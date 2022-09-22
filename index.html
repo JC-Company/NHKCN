@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
+    <!-- - width=device-width : 페이지의 너비를 기기의 스크린 너비로 설정합니다. 즉, 렌더링 영역을 기기의 뷰포트의 크기와 같게 만들어 줍니다.
+- initial-scale=1.0 : 처음 페이지 로딩시 확대/축소가 되지 않은 원래 크기를 사용하도록 합니다. 0~10 사이의 값을 가집니다. -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>새소망교회</title>
     <link rel="stylesheet" href="css/stylesForNHKN.css">
@@ -15,29 +18,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&family=Noto+Sans+KR:wght@300&family=Roboto:ital,wght@1,100&family=Single+Day&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
   </head>
-  
+  <style>
+
+
+  </style>
+
   <body>
-    <div class="top-container">
+    <div class="container top-container">
+      <div class="row">
 
-            <!--Google font is single Day Korean font -->
-            <h1 class="church-name">새소망교회</h1>
 
-            <h2>Church of the Nazarene</h2>
+        <div class="col">
+         <!--Google font is single Day Korean font -->
+          <h1 class="church-name">새소망교회</h1>
 
-            <br>
-            <h4>"새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것같이 너희도 서로 사랑하라 너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라" <요 13:34~35></h4>
+          <h2>Church of the Nazarene</h2>
+
+          <br>
+          <h6 class="about-fonts">"새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것같이 너희도 서로 사랑하라 너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라" <요 13:34~35></h6>
+        </div>
+      </div>
+
+
 
     </div>
 
-    <div class="middle-box">
-      <div class="">
-        <h1 class="about-us">About Us</h1>
-      </div>
 
-        <p> <img class="prayer-image-cropped1" src="images\Prayer_edited.jpg" alt="prayer" >
 
-          Welcomes Christians and those who seek to connect to Christianity in the Lakewood area.
+    <div class="container middle-box">
+
+      <div class="row">
+
+        <div class="col">
+          <h1 class="about-us">About Us</h1>
+          <div class="text-about-us">  Welcomes Christians and those who seek to connect to Christianity in the Lakewood area.
           <br><br>
           We aim to make contact with and encourage others to join us in our lifechanging Christian journey.
           <br><br>
@@ -45,10 +65,16 @@
           <br><br>
           Our vision it to make an impact for God, here in Lakewood, Washington by helping people understand the enriching messages of eternal hope given to us by Jesus Christ through His words and deeds.
           <br><br>
-          Everyone welcome, no matter your age, beliefs, or background. Come just as you are -  we'd love to get to know you better.</
-        </p>
+          Everyone welcome, no matter your age, beliefs, or background. Come just as you are -  we'd love to get to know you better.</p>
+          </div>
+        </div>
 
+
+      <div class="col">
+        <img class="prayer-image-cropped1" src="E:\01. Computer\02. NewHopeChurchHomePage\images\Prayer_edited.jpg" alt="prayer" >
       </div>
+
+    </div>
 
     <div class="bottom-box">
 
@@ -56,5 +82,8 @@
     <div class="end-box">
 
     </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>

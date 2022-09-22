@@ -5,7 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 150px;
-  height: 380px;
+  height: 480px;
   width: auto;
 
 }
@@ -18,13 +18,7 @@
   text-align: center;
 }
 
-.div-box01 {
-  border: solid 3px #2C3333;
-  margin: 50px auto;
-  width: 250px;
-  height: 100px;
-  padding: 15px;
-}
+
 
 .middle-box {
   margin: 50px auto 50px;
@@ -43,11 +37,7 @@
 /* How to crop an image in CSS
    https://www.educative.io/answers/how-to-crop-an-image-in-css */
 
-.prayer-image-cropped1 {
-  width: 450px;
-  height: 350px;
-  object-fit: cover;
-}
+
 
 
 .bottom-box {
@@ -111,6 +101,7 @@ div {
   text-align: center;
 }
 
+
 img {
   float: right;
   margin: 10px 0 0 50px;
@@ -121,4 +112,19 @@ p {
   font-size: 17px;
   font-family: 'Noto Sans KR', sans-serif;
   text-align: left;
+}
+
+/* container middle-box CSS*/
+.about-fonts {
+
+}
+
+.text-about-us {
+  text-align: left;
+}
+
+.prayer-image-cropped1 {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
 }
